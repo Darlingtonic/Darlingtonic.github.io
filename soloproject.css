@@ -1,0 +1,45 @@
+.navbar-brand img{
+     filter:brightness(1.5 opacity:1;) 
+     
+}
+
+.navbar-nav{
+     font-size:15px ;
+     text-transform: uppercase;
+     font-family:poppins ;
+     font-weight: bolder;
+           
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+     color:#ADD8E6;  margin: 20px; letter-spacing: 3px; 
+}
+.carousel-caption h1 {position: absolute;
+     bottom:50%;
+font-size: 40px;
+font-weight: bolder;
+color: #F5F5DC;
+text-transform: uppercase;
+background-color: rgba(61, 53, 53, 0.301);
+padding: 10px 50px;
+}
+.nav-item a:hover{ background-color: green; border: 1px solid black; border-radius: 5px; 
+     }
+     .nav-item a{padding: 3px 8px;   
+}
+.whatsapp-icon {
+     position: fixed;
+     bottom: 0%;
+     right: 40px;
+       
+     color: white;
+     border-radius: 50%;
+     padding: 15px;
+     font-size: 24px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     z-index: 1000;
+     cursor: pointer;
+     text-align: center;
+ }
+ .whatsapp-icon:hover {
+     background-color:transparent 
+ } 

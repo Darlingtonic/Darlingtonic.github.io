@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+	<script src="https://kit.fontawesome.com/7cc9218ac4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><a href="soloproject.html">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<img src="/soloproject image/wmrs9.jpg" alt="Serene landscape with recycling symbol" height="2000px"; width="900px;" >
+			<h1>Transforming Waste into a Sustainable Future</h1>
+			<p>Learn about our mission and values</p>
+			<button>Learn More</button>
+		</section>
+		<section class="our-story">
+			<img src="/soloproject image/wmrs11.jpg" alt="Darlington and Emily, founders  Waste Management request systems">
+            <img src="/soloproject image/wmrs13.jpg" alt="" height="190px; width:140px;">
+			<h2>Our Story</h2>
+			<p>"Welcome to Green Earth Waste Management, where we're dedicated to <br> 
+                 waste into a sustainable future. Our story began with a simple idea: <br> 
+                 to make a positive impact on our planet. With years of experience <br>
+                  in the waste management industry, our founderDarlington and Emily,<br> 
+				  saw an opportunity  to create a company <br>
+				   that not only provides excellent service but also prioritizes  <br>
+                  sustainability and community involvement. Today, we're proud to <br>serve homes
+				and businesses across the region, helping them reduce their environmental footprint."
+                </p>
+		</section>
+		<section class="our-values">
+            <video autoplay muted loop id="video-bg">
+                <source src="/soloproject image/wmrs10.mp4" type="video/mp4" alt="Sustainability, Innovation, Community, and Customer Satisfaction">
+                 Your browser does not support the video tag.
+            </video><br>  
+			<!-- <img src="/soloproject image/wmrs10.mp4" alt="Sustainability, Innovation, Community, and Customer Satisfaction"> -->
+			<h2>Our Values</h2>
+			<ul>
+				<li>Sustainability</li>
+				<li>Innovation</li>
+				<li>Community</li>
+				<li>Customer Satisfaction</li>
+			</ul>
+            <p>"At Waste Management request systems, we're guided by four core values: <br>
+                - Sustainability: We strive to minimize waste and maximize recycling. <br>
+                - Innovation: We embrace new technologies and approaches to improve our services. <br>
+                - Community: We're committed to supporting local initiatives and reducing our impact on the environment. <br>
+                - Customer Satisfaction: We're dedicated to providing exceptional service and exceeding our customers' expectations.</p>
+		</section>
+		<section class="meet-our-team">
+			<h2>Meet Our Team</h2>
+			<ul>
+				<li>
+					<img src="/soloproject image/wmrs11.jpg" alt="Darlington, founder of Waste Management request systems">
+					<h3>Darlington</h3>
+					<p>Founder and CEO</p>
+				</li>
+				<li>
+					<img src="/soloproject image/wmrs13.jpg" alt="Emily, cofounder of  Waste Management request system">
+					<h3>Emily</h3>
+					<p>Founder and COO</p>
+				</li>
+                <li>
+					<img src="/soloproject image/mwrs14.jpg" alt="Our dedicated and committed staff">
+					<h3>Cream of dedicated staff</h3>
+					<p></p>
+				</li>
+				<!-- Add more team members here -->
+			</ul>
+		</section>
+		<section class="sustainability">
+			<img src="/soloproject image/wmrs15.jpg" alt="Recycling facility or sustainable practice" height="1000px" width="1000px ">
+			<h2>Sustainability</h2>
+			<p>"At  Waste Management request systems, we're committed to sustainability. <br>
+                 We invest in recycling technologies,
+                 partner with local organizations, <br>
+                 and educate our customers on the importance of reducing waste. Together, we can make a difference.</p>
+		</section>
+		<section class="call-to-action">
+			<h2>Join us in creating a sustainable future</h2>
+			<button>Learn More | Get Started</button>
+		</section>
+	</main>
+	<footer>
+		<p>Waste Management Request System | 123 Main St, Anytown, USA 12345 | (555) 555-5555 | <a href="mailto:info@greenearthwastemanagement.com">info@greenearthwastemanagement.com</a></p>
+		<ul>
+			<li><a href="#" target="_blank"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+			<li><a href="#" target="_blank"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+			<li><a href="#" target="_blank"><span><i class="fa-brands fa-facebook"></i></span></a></li>
+			<li><a href="#" target="_blank"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+		</ul>
+	</footer>
+	<script src="script.js"></script>
+	<style>
+	
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        section {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section img, section video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        section h1, section h2 {
+            margin-top: 0;
+        }
+        section p, section ul, section button {
+            margin: 10px 0;
+        }
+        section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        section ul li {
+            margin: 5px 0;
+        }
+        section button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hero {
+            grid-column: span 2;
+        }
+        .our-values video {
+            width: 100%;
+        }
+    </style> 
+</head>
+
+</body>
+</html>
+
+
+
+
+
+
+
+	</style>
+</body>
+</html>
+
+<!-- **JavaScript (in script.js file):** -->
+
+<!-- Add animations hereand interactions  -->
+
+<!-- **CSS (in styles.css file):** -->
+
+<!-- * Add styles here * -->
+    
+</body>
+</html>
